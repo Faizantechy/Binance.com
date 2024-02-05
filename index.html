@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Binance</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="Container">
+      <div class="navbar">
+        <div class="first-part">
+          <div class="logo-container">
+            <img src="/logo.png" alt="" class="logo" />
+          </div>
+
+          <ul>
+            <li><a href="#">Buy crypto</a></li>
+            <li><a href="#">Markets</a></li>
+            <li><a href="#">Trade</a></li>
+            <li><a href="#">Future</a></li>
+            <li><a href="#">Earn</a></li>
+            <li><a href="#">Square</a></li>
+            <li><a href="#">More</a></li>
+          </ul>
+        </div>
+
+        <div class="second-part">
+          <div class="icon-img"><img src="/search-icon.avif" alt="" /></div>
+
+          <a href=""> Login</a>
+          <button class="btn">Sign Up</button>
+
+          <img src="" alt="" class="icon1 iconn" />
+          <img src="" alt="" class="icon2 iconn" />
+        </div>
+      </div>
+
+      <main>
+        <div class="two-part-container">
+          <div class="left-part">
+            <h1>
+              <span class="numbers" id="userCount">174,937,332</span> <br />
+              Users <br />
+              Trust Us
+            </h1>
+
+            <form>
+              <input
+                type="email"
+                value="Email/Phone number"
+                class="input-tag"
+              />
+
+              <button class="register">Register</button>
+            </form>
+
+            <br />
+
+            <div class="sack">
+              <img src="/gold-coin.png" alt="" class="gold" />
+            </div>
+            <a href="">Register now and get up to 100 USDT in reward.</a>
+
+            <br /><br />
+
+            <span class="span1"> Or Connect With</span>
+
+            <span class="span2"> App Download</span>
+
+            <br /><br />
+
+            <img src="/google.png" alt="" class="image1 image" />
+
+            <img src="/apple (1).png" alt="" class="image2 image" />
+
+            <img src="/google-play.png" alt="" class="image3 image" />
+
+            <img src="/app-store.png" alt="" class="image4 image" />
+          </div>
+          <div class="right-part">
+            <div class="currencies">
+              <ul>
+                <li>
+                  <img src="/bitcoin.png" alt="" />
+                  <p>BTC <span>Bitcoin</span></p>
+                </li>
+
+                <li>
+                  <img src="/ETH-removebg-preview.png" alt="" />
+                  <p>ETH <span>Ethereum</span></p>
+                </li>
+
+                <li>
+                  <img src="/binance.png" alt="" />
+                  <p>BNB <span>BNB</span></p>
+                </li>
+
+                <li>
+                  <img src="/xrp.png" alt="" />
+                  <p>XRP <span>Ripple</span></p>
+                </li>
+              </ul>
+              <ul>
+                <li><p>$43,051.37</p></li>
+                <li><p>$2,312.68</p></li>
+                <li><p>$302.00</p></li>
+                <li><p>$0.5087</p></li>
+              </ul>
+
+              <ul>
+                <li><p style="color: rgb(25, 147, 25)">+0.06%</p></li>
+                <li><p style="color: green">+0.08%</p></li>
+                <li><p style="color: rgb(244, 45, 45)">+0.082%</p></li>
+                <li><p style="color: green">+0.53%</p></li>
+              </ul>
+
+           
+            </div>
+            <div class="middle-div">
+
+<ul>
+
+
+    <li>US Bitcoin Spot ETFs See Net Inflow of $79 Million on 16th Trading Day
+    </li>
+    <li>Metavesco Announces $1 Million Stock Buyback Plan Funded by Bitcoin Mining Revenue
+    </li>
+    <li>Australian Billionaire Andrew Forrest Targeted in Deepfake Crypto Scam</li>
+
+    <span>View All News ></span>
+</ul>
+                
+            </div>
+
+            <div class="count-down">
+
+                <h3>Bitcoin Having Countdown!</h3>
+
+
+                <div class="spans">
+                <p>69 <span>D</span></p>
+                <p>23 <span>H</span></p>
+                <p>10 <span>M</span></p>
+                <p>25 <span>S</span></p>
+            </div>
+
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script>
+        let userCount = 174937332; // Starting count
+        const userCountElement = document.getElementById('userCount');
+      
+        function increaseUserCount() {
+          userCount += Math.floor(Math.random() * 10); // Increase by a random value (adjust as needed)
+          userCountElement.textContent = userCount.toLocaleString(); // Format the number with commas
+        }
+      
+        // Update the counter every 100 milliseconds (adjust as needed)
+        setInterval(increaseUserCount, 100);
+      </script>
+  </body>
+</html>
